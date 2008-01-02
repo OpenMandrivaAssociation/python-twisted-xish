@@ -8,6 +8,7 @@ Source1:        _version.py
 License:        MIT
 Group:          Development/Python
 URL:            http://twistedmatrix.com/projects/xish/
+BuildRoot:      %{_tmppath}/%{name}-buildroot
 BuildRequires:	python-devel 
 BuildRequires:  python-twisted-core
 Requires:       python-twisted-core
