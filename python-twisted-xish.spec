@@ -2,7 +2,7 @@ Summary:        A XML API for Twisted framework
 Name:           python-twisted-xish
 Version: 0.1.0
 %define directory_down %(echo %version|perl -n -e  '/^(\d+\.\d+).*$/; print \$1 ')
-Release: %mkrel 8
+Release: %mkrel 9
 Source0:        http://tmrc.mit.edu/mirror/twisted/Xish//%directory_down/TwistedXish-%{version}.tar.bz2
 Source1:        _version.py
 License:        MIT
