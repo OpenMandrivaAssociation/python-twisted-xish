@@ -2,17 +2,18 @@ Summary:        A XML API for Twisted framework
 Name:           python-twisted-xish
 Version: 0.1.0
 %define directory_down %(echo %version|perl -n -e  '/^(\d+\.\d+).*$/; print \$1 ')
-Release: %mkrel 10
+Release:        11
 Source0:        http://tmrc.mit.edu/mirror/twisted/Xish//%directory_down/TwistedXish-%{version}.tar.bz2
 Source1:        _version.py
 License:        MIT
 Group:          Development/Python
 URL:            http://twistedmatrix.com/projects/xish/
-BuildRoot:      %{_tmppath}/%{name}-buildroot
 BuildRequires:	python-devel 
 BuildRequires:  python-twisted-core
 Requires:       python-twisted-core
 #BuildArch:      noarch
+
+%define debug_package %{nil}
 
 %description
 A XML API for Twisted framework.
