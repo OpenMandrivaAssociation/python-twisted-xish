@@ -4,7 +4,7 @@
 Summary:    A XML API for Twisted framework
 Name:       python-twisted-xish
 Version:    0.1.0
-Release:    12
+Release:    13
 Source0:    http://tmrc.mit.edu/mirror/twisted/Xish//%directory_down/TwistedXish-%{version}.tar.bz2
 Source1:    _version.py
 License:    MIT
