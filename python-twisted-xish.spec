@@ -9,7 +9,7 @@ Source0:    http://tmrc.mit.edu/mirror/twisted/Xish//%directory_down/TwistedXish
 Source1:    _version.py
 License:    MIT
 Group:      Development/Python
-URL:        http://twistedmatrix.com/projects/xish/
+URL:        https://twistedmatrix.com/projects/xish/
 BuildRequires:	python-devel 
 BuildRequires:  python-twisted-core
 Requires:       python-twisted-core
